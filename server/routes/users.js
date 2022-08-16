@@ -83,4 +83,7 @@ router.post('/', async (req, res, next) => {
   }
 });
 
+//The final part of express I am a little confused about as I believe all these routes
+//are being handled above but somehow we still have to specify a different status code
+
 module.exports = router;
